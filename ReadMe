@@ -1,0 +1,33 @@
+Welcome,
+
+In order to run the program you will have to first check that you have all the packages.
+These are imported in the program - Finale.py.
+
+Afterwards, Chrome Driver.
+Check your Chrome version:
+In Chrome -> click on the 3 dots -> 'Help' -> 'About Google Chrome' -> There you will see the current version.
+The current chromedriver in this directory is of Version 98 for mac64.
+Other versions are available here:
+    "https://sites.google.com/chromium.org/driver/"
+
+replace the chromedriver in this directory with the new EXTRACTED one.
+Make sure that it has the same name! (etc, not 1 or 2 added at the end)
+
+You are now ready to run the program!
+
+It's pretty much self explanatory but here is a quick overview:
+
+We have two options for the server,
+    Default - uses the GET method calls in order to pass the name&password of the user in the url address.
+              In this option, one can chose to grab to name & password without checking for the ID,
+              in order to later use selenium to try and fetch it.
+              Another option will be to change the method (option 4 in the main menu) so that the server
+              will automatically try to fetch the ID of the user.
+              In the latter option, one's details will be added to the json file ONLY if the name & password
+              were valid and an ID was successfully fetched (ID will obviously be added to the json)
+
+    POST - uses the POST method calls. this one is much safer and easier to be applied. As far for you, the program-user,
+           the program will behave just the same as the second option of the GET methods.
+
+    In order to switch server / turn them off the program must be shut down. Don't worry, the json file wont be harmed.
+
