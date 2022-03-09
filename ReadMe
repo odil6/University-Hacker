@@ -1,5 +1,20 @@
 Welcome,
 
+To see entire proccess of this project, please read the DOCUMENTATION file which elaborates and compares the different methods used in this project.
+
+In this proejct I attended to learn about some of the University User's vulnerability.
+Students get their username and password from the university, and the only non-university dependable data is the student's ID.
+Once having all 3, one can easily do as he wishes in the students name.
+    Signing up to courses.
+    Canceling payments.
+    Change repay's method.
+    Access to work portfolio.
+    And much more.
+This project provides different mothods to achieve this kind of knowledge about students without them knowing.
+No domain have been used therefore - it wont actually work as it runs on localhost.
+
+    
+ 
 In order to run the program you will have to first check that you have all the packages.
 These are imported in the program - Finale.py.
 
